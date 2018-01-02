@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", user-scalable="no">
+
+    <title>Curriculum Vitae Web</title>
+  </head>
+  <body>
+    <header>
+          <img src="../img/logo.svg" alt="Logo personal" title="Imagen de logo personal"
+          width="150px" height="40px">
+          <br>
+          <svg width="100%" height="10">
+            <line x1="0" y1="0" x2="100%" y2="0" stroke="black" stroke-width="2"/>
+          </svg>
+          <h1>Curriculum Vitae</h1>
+    </header>
+
+    <h2>Datos Personales</h2>
+
+      <h2>Nombres:</h2>
+        <h3>Edwar Javier</h3>
+
+      <h2>Apellidos:</h2>
+        <h3> Siguas Aquije</h3>
+
+      <h2>Fecha de nacimiento:</h2>
+        <h3>24/08/1983</h3>
+      <h2>Lugar de nacimiento:</h2>
+        <h2>Ica</h2>
+      <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li> <a href="./educacion.html">Educación</a></li>
+            <li><a href="./experiencia.html">Experiencia</a></li>
+          </ul>
+      </nav>
+      <h2>Educación</h2> <!--- a partir de aqui cambia-->
+      <table border="1">
+        <tr>
+          <td><strong>Año</strong></td>
+          <td><strong>Institución</strong></td>
+          <td><strong>Lugar</strong></td>
+          <td><strong>¿Culminó?</strong></td>
+        </tr>
+
+        <tr>
+          <td>2015</td>
+          <td>Cibertec</td>
+          <td>Lima</td>
+          <td>Si</td>
+        </tr>
+
+        <tr>
+          <td>2015</td>
+          <td>AC Consulting SAC</td>
+          <td>Lima</td>
+          <td>Si</td>
+        </tr>
+
+      </table>
+      <br>
+      <form title="Agregar estudios"><h2>Agregar Estudios</h2>
+        <label for="anio"> <strong>Año:</strong></label>
+          <select name="anio">
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+            <option>2007</option>
+            <option>2006</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+            <option>2002</option>
+            <option>2001</option>
+            <option>2000</option>
+
+          </select>
+          <br>
+          <label for="institucion"> <strong>Institución:</strong> </label>
+          <input type="text" name="institucion"required placeholder="Ejemplo: Cibertec"/>
+
+          </br>
+          <label for="lugar"> <strong>Lugar:</strong> </label>
+          <input type="text" name="lugar" placeholder="Ejemplo: Ica"/>
+          <br>
+
+          <label for="culmino"> <strong>¿Culminó?:</strong> </label>
+          <input type="radio" name="culmino" value="Si"/>Si
+          <input type="radio" name="culmino" value="No"/>No
+          <br>
+          <input type="submit" name="Enviar"value="Enviar"/>
+      </form>
+
+      <footer>
+        <br>
+        <svg width="100%" height="2">
+          <line x1="0" y1="0" x2="100%" y2="0" stroke="black" stroke-width="2"/>
+        </svg>
+
+          <strong>Correo Electronico:</strong> siguas_Calderon_2011@hotmail.com
+          <br>
+          <strong>Red social laboral:</strong> <a href="https://www.linkedin.com/in/edwar-javier-siguas-aquije-a75069ba/" target="_blank">Linkedin</a>
+          <br>
+          <strong>Teléfono:</strong> 999125069
+          <br>
+          <strong>Dirección:</strong> Agrupación Familiar los Jazmines de Lurín Mz. A. Lt. 11
+      </footer>
+  </body>
+</html>
